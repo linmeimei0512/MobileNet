@@ -1,0 +1,7 @@
+*.pyc
+.idea/*
+datasets/flower
+datasets/flower.tar.gz
+tools/model_converter/mobilenet_v3_onnx_to_rk1808_converter.py
+tools/model_converter/rknn_convert_dataset
+tools/model_loader/mobilenet_v3_rk1808_model_loader.py
