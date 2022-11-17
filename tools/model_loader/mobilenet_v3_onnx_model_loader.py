@@ -148,5 +148,5 @@ if __name__ == '__main__':
     np.set_printoptions(linewidth=2000, precision=20)
 
     mobilenet_v3_onnx_model_loader = MobileNetV3ONNXModelLoader()
-    mobilenet_v3_onnx_model_loader.load_onnx_model(onnx_model_path='../../../Mask_Detection/models_zoo/mobilenet_v3/label_6/onnx/mask_detection_mobilenet_v3_small_112_label_6_acc_0.984_20220523.onnx')
-    mobilenet_v3_onnx_model_loader.predict(image_path='../../../Mask_Detection/initialize_image.jpg', debug=True)
+    mobilenet_v3_onnx_model_loader.load_onnx_model(onnx_model_path='../../../Liveness_Detection/models_zoo/mobilenet_v3/ONNX/0826/02/ir_liveness_detection_mobilenet_v3_small_112_val_acc_0.999287072243346.onnx')
+    # mobilenet_v3_onnx_model_loader.predict(image_path='../../../Mask_Detection/initialize_image.jpg', debug=True)

@@ -125,6 +125,6 @@ if __name__ == '__main__':
     # mobilenet_v3_pytorch_to_onnx_converter.convert(pytorch_weight_path='../../models/mobilenet_v3/PyTorch/liveness_detection_mobilenet_v3_small_weight_112.pth',
     #                                                input_shape=(3, 112, 112),
     #                                                onnx_model_output_path='../../models/mobilenet_v3/ONNX/liveness_detection_mobilenet_v3_small.onnx')
-    mobilenet_v3_pytorch_to_onnx_converter.convert(pytorch_model_path='../../../Mask_Detection/models_zoo/mobilenet_v3/pytorch/label_6/mask_detection_mobilenet_v3_small_112_label_6_val_acc_0.9840162374730432.pth',
+    mobilenet_v3_pytorch_to_onnx_converter.convert(pytorch_model_path='../../../Liveness_Detection/models_zoo/mobilenet_v3/PyTorch/0905/01/ir_liveness_detection_mobilenet_v3_small_112_val_acc_0.9996203492786636.pth',
                                                    input_shape=(3, 112, 112),
-                                                   onnx_model_output_path='../../../Mask_Detection/models_zoo/mobilenet_v3/onnx/label_6/mask_detection_mobilenet_v3_small_112_label_6_weight_val_acc_0.9840162374730432.onnx')
+                                                   onnx_model_output_path='../../../Liveness_Detection/models_zoo/mobilenet_v3/ONNX/0905/01/ir_liveness_detection_mobilenet_v3_small_112_val_acc_0.9996203492786636.onnx')

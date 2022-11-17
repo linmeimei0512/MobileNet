@@ -1,0 +1,3 @@
+./rknn_convert_dataset/2.npy
+./rknn_convert_dataset/0.npy
+./rknn_convert_dataset/1.npy

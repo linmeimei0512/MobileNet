@@ -23,7 +23,7 @@ from onnx_tf.backend import prepare
 
 '''
 ************************
-tensorflow-gpu==2.4.0
+tensorflow-gpu==2.5.0
 tensorflow-addons==0.14.0
 onnx==1.11.0
 onnx-tf==1.9.0
@@ -92,5 +92,5 @@ Main
 '''
 if __name__ == '__main__':
     mobilenet_v3_onnx_to_tensorflow_converter = MobileNetV3ONNXToTensorFlowConverter()
-    mobilenet_v3_onnx_to_tensorflow_converter.convert(onnx_model_path='../../../Mask_Detection/models_zoo/mobilenet_v3/onnx/label_6/mask_detection_mobilenet_v3_small_112_label_6_weight_val_acc_0.9840162374730432.onnx',
-                                                      tensorflow_model_output_path='../../../Mask_Detection/models_zoo/mobilenet_v3/tensorflow/label_6/mask_detection_mobilenet_v3_small_112_label_6_weight_val_acc_0.9840162374730432')
+    mobilenet_v3_onnx_to_tensorflow_converter.convert(onnx_model_path='../../../Liveness_Detection/models_zoo/mobilenet_v3/ONNX/0905/01/ir_liveness_detection_mobilenet_v3_small_112_val_acc_0.9996203492786636.onnx',
+                                                      tensorflow_model_output_path='../../../Liveness_Detection/models_zoo/mobilenet_v3/TensorFlow/0905/01/ir_liveness_detection_mobilenet_v3_small_112_val_acc_0.9996203492786636')
